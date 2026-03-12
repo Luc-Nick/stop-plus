@@ -1,9 +1,14 @@
 [
   "sin la letra A",
-  "que empiece con M",
   "de color rojo",
   "que tenga más de 5 letras",
-  "que tenga exactamente 2 palabras",
-  "que empiece con vocal",
-  "que termine en O"
+  "que tenga 2 palabras",
+  "que termine con vocal",
+  "que termine en O",
+  "sin usar la letra E",
+  "que tenga más de 8 letras",
+  "que tenga menos de 6 letras",
+  "que podría ser un apodo",
+  "que tenga diminutivo",
+  "que tenga aumentativo"
 ]
