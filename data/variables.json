@@ -1,14 +1,22 @@
 [
   "sin la letra A",
   "de color rojo",
-  "que tenga más de 5 letras",
   "que tenga 2 palabras",
   "que termine con vocal",
   "que termine en O",
   "sin usar la letra E",
   "que tenga más de 8 letras",
   "que tenga menos de 6 letras",
-  "que podría ser un apodo",
   "que tenga diminutivo",
-  "que tenga aumentativo"
+  "que tenga aumentativo",
+  "sin usar la letra S",
+  "que sea caro",
+  "que sea barato",
+  "que sea peligroso",
+  "que sea incomodo",
+  "que podría ser nombre de banda",
+  "que sea inventado",
+  "que no te guste",
+  "que sea util",
+  "que sea lindo"
 ]
