@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div
       className="hero min-h-screen"
-      style={{ backgroundImage: "url(/images/bg-dark.jpg)" }}
+      style={{ backgroundImage: "url(/images/bg-light.jpg)" }}
     >
-      <div className="hero-overlay "></div>
+      {/* <div className="hero-overlay "></div> */}
       <div
         className="hero-content p-0 flex-col text-center"
       >
