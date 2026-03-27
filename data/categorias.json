@@ -59,6 +59,8 @@
   "Algo que encuentras en el baño",
   "Algo que se encuentra en el supermercado",
   "Algo que se encuentra en la Farmacia",
+  "Algo que encuentras en una granja",
+  "Algo que se encuentra en una oficina",
   "Algo que se encuentra en la escuela",
   "Algo que encuentras en la calle",
   "Algo relacionado con las fiestas",
@@ -80,5 +82,15 @@
   "Algo que apeste",
   "Algo que de miedo",
   "Algo que se puede coleccionar",
-  "Palabras que contengan ñ"
+  "Palabras que contengan ñ",
+  "Cosas que vendan en una ferretería",
+  "Aplicaciones de celular",
+  "Sabores de helado",
+  "Personaje de los Simpsons",
+  "Un dios mitologico",
+  "Una palabra con 2 significados (se permiten pares acentuados, nombrarlos en ese caso)",
+  "Algo relacionado con el espacio (Astronomia)",
+  "Elemento de la tabla periodica",
+  "Palagras Terminadas en ...ERO",
+  "Palabra que contiene CH"
 ]
