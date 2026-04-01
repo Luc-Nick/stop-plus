@@ -46,9 +46,12 @@ export default function Clasicas() {
             Generar
           </button>
           {historial.length > 0 && (
-            <p className="mt-4 text-sm text-white">
-              Historial: {historial.join(", ")}
-            </p>
+            <div className="mt-8 text-sm text-white">
+              <h3 className="text-lg font-semibold">Historial</h3>
+              {historial.map((item, index) => (
+                <p key={index}>{item}</p>
+              ))}
+            </div>
           )}
         </div>
       </div>

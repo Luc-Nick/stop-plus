@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import categorias from "@/data/categorias.json";
-import variables from "@/data/variables.json";
+import categoriasVar from "@/data/categoriasVar.json";
 import { randomItem } from "@/utils/random";
 import HomeBtn from "@/components/HomeBtn";
 
@@ -10,8 +9,9 @@ export default function Caos() {
   const [resultado, setResultado] = useState("");
 
   function generar() {
-    const categoria = randomItem(categorias);
-    const variable = randomItem(variables);
+    const item = randomItem(categoriasVar);
+    const categoria = item.categoria;
+    const variable = randomItem(item.variables);
 
     setResultado(`${categoria} ${variable}`);
   }

@@ -7,9 +7,20 @@ import HomeBtn from "@/components/HomeBtn";
 
 export default function Frase() {
   const [frase, setFrase] = useState("");
+  const [disponibles, setDisponibles] = useState<string[]>([...frases]);
+  const [historial, setHistorial] = useState<string[]>([]);
 
   function generar() {
-    setFrase(randomItem(frases));
+    if (disponibles.length === 0) {
+      setFrase("No quedan frases disponibles");
+      return;
+    }
+
+    const nueva = randomItem(disponibles);
+    setFrase(nueva);
+
+    setDisponibles((prev) => prev.filter((item) => item !== nueva));
+    setHistorial((prev) => [...prev, nueva]);
   }
 
   return (
@@ -35,6 +46,14 @@ export default function Frase() {
           <button className="btn btn-accent" onClick={generar}>
             Generar
           </button>
+          {historial.length > 0 && (
+            <div className="mt-8 text-sm text-white">
+              <h3 className="text-lg font-semibold">Historial</h3>
+              {historial.map((item, index) => (
+                <p key={index}>{item}</p>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </section>

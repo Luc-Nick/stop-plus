@@ -1,0 +1,298 @@
+[
+  {
+    "categoria": "Nombre Masculino",
+    "variables": ["que sea corto", "que termine con vocal", "que tenga 6 o mas letras"]
+  },
+  {
+    "categoria": "Nombre Femenino",
+    "variables": ["que sea corto", "que termine con vocal", "que tenga 6 o mas letras"]
+  },
+  {
+    "categoria": "Apodos",
+    "variables": ["que tenga menos de 5 letras", "relacionado a un objeto"]
+  },
+  {
+    "categoria": "Un Actor (masculino)",
+    "variables": ["que sea viejo", "que sea joven"]
+  },
+  {
+    "categoria": "Una Actriz (femenina)",
+    "variables": ["que termine en vocal", "que sea rubia"]
+  },
+  {
+    "categoria": "Una profesión",
+    "variables": ["mal pagada", "de algun conocido"]
+  },
+  {
+    "categoria": "Un heroe o villano",
+    "variables": ["que sea debil", "que sea poderoso", "que sea rojo, azul o amarillo"]
+  },
+  {
+    "categoria": "Personaje de Caricaturas",
+    "variables": ["anterior a los 2000", "posterior a los 2000", "solo de anime"]
+  },
+  {
+    "categoria": "Un animal terrestre",
+    "variables": ["que sea salvaje ", "que sea grande", "que sea peligroso", "que sea pequeño", "que se pueda comer"]
+  },
+  {
+    "categoria": "Animal Acuatico",
+    "variables": ["que se pueda comer", "que sea grande", "que sea peligroso"]
+  },
+  {
+    "categoria": "Una fruta",
+    "variables": ["que se pueda comer con cáscara", "de al menos 3 silabas"]
+  },
+  {
+    "categoria": "Un vegetal",
+    "variables": ["que no te guste", "que se pueda usar en ensalada", "que sirva como arma"]
+  },
+  {
+    "categoria": "Un ingrediente de cocina",
+    "variables": ["que venga en polvo", "para postres", "que sirva para hacer pizza","para comidas saladas"]
+  },
+  {
+    "categoria": "Algo dulce",
+    "variables": ["que no te guste", "que se coma en fiestas", "que sea redondo (o aproximado)"]
+  },
+  {
+    "categoria": "Algo Salado",
+    "variables": ["que sea crujiente", "se coma en fiestas", "tipico de otro pais"]
+  },
+  {
+    "categoria": "Una bebida",
+    "variables": ["con alcohol", "que se tome fria", "que vengan en botella de vidrio"]
+  },
+  {
+    "categoria": "Un pais",
+    "variables": ["de Africa o Asia", "Que termine en vocal", "Donde se hable español", "Del hemisferio norte", "Del hemisferio sur"]
+  },
+  {
+    "categoria": "Una ciudad",
+    "variables": ["que este sobre el mar", "que termine en consonante", "que termine con vocal"]
+  },
+  {
+    "categoria": "Nombre de una película",
+    "variables": ["Que el nombre tenga 2 palabras", "Que sea de terror", "Que sea de comedia", "Que sea de accion", "Animada", "Que tenga un numero en el nombre"]
+  },
+  {
+    "categoria": "Nombre de una cancion",
+    "variables": ["Que el nombre tenga al menos 2 palabras", "Que sea de tu infancia" , "De una cantante mujer", "De un cantante hombre"]
+  },
+  {
+    "categoria": "Nombre de un libro",
+    "variables": ["Que el nombre tenga al menos 2 palabras", "Que hayas leido"]
+  },
+  {
+    "categoria": "Programa de TV",
+    "variables": ["Que sea un reality", "que se este transmitiendo actualmente", "Que odies"]
+  },
+  {
+    "categoria": "Un grupo musical (bandas)",
+    "variables": ["De argentina", "Que tenga al menos una mujer en la banda", "Que tenga 3 o mas integrantes"]
+  },
+  {
+    "categoria": "Un juego o videojuego",
+    "variables": ["de rol", "de cartas", "de mesa", "de computadora o consola"]
+  },
+  {
+    "categoria": "Un deporte",
+    "variables": ["que este presente en los juegos olimpicos", "que este presente en los juegos olimpicos de invierno", "que se juegue con pelota", "que se juegue en equipo"]
+  },
+  {
+    "categoria": "Algo muy pequeño",
+    "variables": ["que entre en tu mano", "que podrias comerte de un bocado", "que sea insecto", "de un solo color"]
+  },
+  {
+    "categoria": "Algo muy grande",
+    "variables": ["que mas alto que tu", "que no puedas levantar", "que sea inerte"]
+  },
+  {
+    "categoria": "Algo suave",
+    "variables": ["que termine con vocal", "que sea caro"]
+  },
+  {
+    "categoria": "Algo que vuele",
+    "variables": ["REVISE HASTA ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"]
+  },
+  {
+    "categoria": "Algo que hace ruido",
+    "variables": ["que sea ruidoso", "que sea molesto", "que sea audible"]
+  },
+  {
+    "categoria": "Algo que se puede romper fácilmente",
+    "variables": ["que sea frágil", "que sea delicado", "que sea quebradizo"]
+  },
+  {
+    "categoria": "Algo que se pueda abrir y/o cerrar",
+    "variables": ["que sea funcional", "que sea práctico", "que sea versátil"]
+  },
+  {
+    "categoria": "Cosas que se puedan perder fácilmente",
+    "variables": ["que sea pequeño", "que sea valioso", "que sea importante"]
+  },
+  {
+    "categoria": "Algo que se pueda llevar en una mochila",
+    "variables": ["que sea portátil", "que sea ligero", "que sea útil"]
+  },
+  {
+    "categoria": "Cosas con ruedas",
+    "variables": ["que sea móvil", "que sea rápido", "que sea práctico"]
+  },
+  {
+    "categoria": "Objetos geometricos (redondos, cuadrados, triangulos, etc)",
+    "variables": ["que sea simétrico", "que sea equilibrado", "que sea visual"]
+  },
+  {
+    "categoria": "Cosas que salten o reboten",
+    "variables": ["que sea elástico", "que sea dinámico", "que sea divertido"]
+  },
+  {
+    "categoria": "Algo que encuentras en el baño",
+    "variables": ["que sea higiénico", "que sea necesario", "que sea cotidiano"]
+  },
+  {
+    "categoria": "Algo que se encuentra en el supermercado",
+    "variables": ["que sea común", "que sea accesible", "que sea cotidiano"]
+  },
+  {
+    "categoria": "Algo que se encuentra en la Farmacia",
+    "variables": ["que sea medicinal", "que sea necesario", "que sea importante"]
+  },
+  {
+    "categoria": "Algo que encuentras en una granja",
+    "variables": ["que sea rústico", "que sea natural", "que sea relacionado con animales"]
+  },
+  {
+    "categoria": "Algo que se encuentra en una oficina",
+    "variables": ["que sea funcional", "que sea importante", "que sea cotidiano"]
+  },
+  {
+    "categoria": "Algo que se encuentra en la escuela",
+    "variables": ["que sea educativo", "que sea importante", "que sea cotidiano"]
+  },
+  {
+    "categoria": "Algo que encuentras en la calle",
+    "variables": ["que sea común", "que sea visible", "que sea cotidiano"]
+  },
+  {
+    "categoria": "Algo relacionado con las fiestas",
+    "variables": ["que sea divertido", "que sea alegre", "que sea colorido"]
+  },
+  {
+    "categoria": "Algo que se vea alrededor",
+    "variables": ["que sea visible", "que sea común", "que sea cotidiano"]
+  },
+  {
+    "categoria": "Algo que se pueda encontrar en la basura",
+    "variables": ["que sea descartable", "que sea inútil", "que sea reciclable"]
+  },
+  {
+    "categoria": "Prenda de Vestir",
+    "variables": ["que sea cómoda", "que sea práctica", "que sea fashionable"]
+  },
+  {
+    "categoria": "Algo con pelo",
+    "variables": ["que sea suave", "que sea esponjoso", "que sea reconfortante"]
+  },
+  {
+    "categoria": "Un Jueguete",
+    "variables": ["que sea divertido", "que sea colorido", "que sea infantil"]
+  },
+  {
+    "categoria": "Algo relacionado con Autos",
+    "variables": ["que sea mecánico", "que sea rápido", "que sea tecnológico"]
+  },
+  {
+    "categoria": "Algo relacionado con las computadoras",
+    "variables": ["que sea tecnológico", "que sea moderno", "que sea funcional"]
+  },
+  {
+    "categoria": "Algo relacionado con bebes",
+    "variables": ["que sea tierno", "que sea pequeño", "que sea suave"]
+  },
+  {
+    "categoria": "Un arbol o planta",
+    "variables": ["que sea verde", "que sea natural", "que sea vivo"]
+  },
+  {
+    "categoria": "Algo que se usa en la cocina",
+    "variables": ["que sea funcional", "que sea práctico", "que sea importante"]
+  },
+  {
+    "categoria": "Algo que se usa en la oficina",
+    "variables": ["que sea profesional", "que sea funcional", "que sea importante"]
+  },
+  {
+    "categoria": "Algo que se usa para viajar",
+    "variables": ["que sea portátil", "que sea práctico", "que sea necesario"]
+  },
+  {
+    "categoria": "Electrodomesticos",
+    "variables": ["que sea funcional", "que sea importante", "que sea moderno"]
+  },
+  {
+    "categoria": "Una marca",
+    "variables": ["que sea conocida", "que sea confiable", "que sea popular"]
+  },
+  {
+    "categoria": "Parte del cuerpo",
+    "variables": ["que sea visible", "que sea funcional", "que sea importante"]
+  },
+  {
+    "categoria": "Algo que apeste",
+    "variables": ["que sea desagradable", "que sea repugnante", "que sea ofensivo"]
+  },
+  {
+    "categoria": "Algo que de miedo",
+    "variables": ["que sea aterrador", "que sea intimidante", "que sea oscuro"]
+  },
+  {
+    "categoria": "Algo que se puede coleccionar",
+    "variables": ["que sea valioso", "que sea interesante", "que sea único"]
+  },
+  {
+    "categoria": "Palabras que contengan ñ",
+    "variables": ["que sea español", "que sea común", "que sea pronunciable"]
+  },
+  {
+    "categoria": "Cosas que vendan en una ferretería",
+    "variables": ["que sea práctico", "que sea útil", "que sea resistente"]
+  },
+  {
+    "categoria": "Aplicaciones de celular",
+    "variables": ["que sea útil", "que sea popular", "que sea práctica"]
+  },
+  {
+    "categoria": "Sabores de helado",
+    "variables": ["que sea delicioso", "que sea refrescante", "que sea popular"]
+  },
+  {
+    "categoria": "Personaje de los Simpsons",
+    "variables": ["que sea famoso", "que sea memorable", "que sea colorido"]
+  },
+  {
+    "categoria": "Un dios mitologico",
+    "variables": ["que sea poderoso", "que sea importante", "que sea legendario"]
+  },
+  {
+    "categoria": "Una palabra con 2 significados (se permiten pares acentuados, nombrarlos en ese caso)",
+    "variables": ["que sea ambigua", "que sea interesante", "que sea común"]
+  },
+  {
+    "categoria": "Algo relacionado con el espacio (Astronomia)",
+    "variables": ["que sea distante", "que sea misterioso", "que sea infinito"]
+  },
+  {
+    "categoria": "Elemento de la tabla periodica",
+    "variables": ["que sea químico", "que sea fundamental", "que sea importante"]
+  },
+  {
+    "categoria": "Palagras Terminadas en ...ERO",
+    "variables": ["que sea sustantivo", "que sea común", "que sea español"]
+  },
+  {
+    "categoria": "Palabra que contiene CH",
+    "variables": ["que sea común", "que sea español", "que sea pronunciable"]
+  }
+]
