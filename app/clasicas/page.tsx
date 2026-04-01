@@ -7,22 +7,31 @@ import HomeBtn from "@/components/HomeBtn";
 
 export default function Clasicas() {
   const [categoria, setCategoria] = useState("");
+  const [disponibles, setDisponibles] = useState<string[]>([...categorias]);
+  const [historial, setHistorial] = useState<string[]>([]);
 
   function generar() {
-    setCategoria(randomItem(categorias));
+    if (disponibles.length === 0) {
+      setCategoria("No quedan categorías disponibles");
+      return;
+    }
+
+    const nueva = randomItem(disponibles);
+    setCategoria(nueva);
+
+    setDisponibles((prev) => prev.filter((item) => item !== nueva));
+    setHistorial((prev) => [...prev, nueva]);
   }
 
   return (
     <section
-      className="hero min-h-screen relative"
+      className="hero min-h-screen relativa"
       style={{
-        backgroundImage:
-          "url(/images/bg-light.jpg)" ,
+        backgroundImage: "url(/images/bg-light.jpg)",
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
-      {/* <button class="btn btn-soft btn-info">Info</button> */}
-        <HomeBtn />
+      <HomeBtn />
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
           <h1 className="mb-5 text-6xl font-bold text-primary text-shadow-md text-shadow-secondary">
@@ -36,6 +45,11 @@ export default function Clasicas() {
           <button className="btn btn-primary" onClick={generar}>
             Generar
           </button>
+          {historial.length > 0 && (
+            <p className="mt-4 text-sm text-white">
+              Historial: {historial.join(", ")}
+            </p>
+          )}
         </div>
       </div>
     </section>
